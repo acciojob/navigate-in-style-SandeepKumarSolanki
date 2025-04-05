@@ -5,6 +5,9 @@
 	display : flex;
 	justify-content : center;
 }
+ul{
+	display : block;
+}
 .list{
 	display : inline;
 	
