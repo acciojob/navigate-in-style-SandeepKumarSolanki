@@ -1,20 +1,17 @@
-/*  your css code here. If applicable */
-.container{
-	background-color : #D3D3D3;
-	padding : 10px;
-	display : flex;
-	justify-content : center;
-}
-ul{
-	display : block;
-}
-.list{
-	display : inline;
-	
-	margin-right : 1rem;
-	list-style : none;
+.container {
+    background-color: #D3D3D3;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
+ul {
+    display: flex; /* Ensure the list is displayed horizontally */
+    padding: 0;
+    margin: 0;
+}
 
-
-
+.list {
+    margin-right: 1rem;
+    list-style: none;
+}
